@@ -52,10 +52,39 @@ img {
     }
 }
 
-@media screen and (max-width:768px) {
-    .slider {
-        /* width: fit-content; */
+@media screen and (max-width:320px) {
+    img {
+        width: 200px;
+    }
+    .slide-image {
+        width: 320px;
         /* overflow: hidden; */
     }
+    .slide-image1 {
+        width: 320px;
+        /* overflow: hidden; */
+    }
+    figure {
+        width: 1280px;
+    }
+    .slider {
+        width: 320px;
+        overflow: hidden;
+    }
+    @keyframes animation {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: -320px;
+    }
+    50% {
+        left: -640px;
+    }
+    75% {
+        left: -960px;
+    }
+}
   
 }
