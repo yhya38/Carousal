@@ -21,7 +21,7 @@ img {
   float: left;
   width: 505px;
   text-align: center;
-  padding: 40px;
+  padding: 10px;
   background-color: skyblue;
   border: 1px solid black;
 }
@@ -29,9 +29,25 @@ img {
   float: left;
   width: 505px;
   text-align: center;
-  padding: 40px;
+  padding: 10px;
   background-color: rgba(211, 211, 211, 0.8);
   border: 1px solid black;
+}
+.slider h2 {
+    margin-bottom: 10px;
+}
+.slider p {
+    margin: 5px;
+}
+.slider a {
+    width: 80px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 @keyframes animation {
@@ -86,6 +102,9 @@ img {
   }
 }
 @media screen and (max-width:415px) {
+    img {
+        width: 350px;
+    }
     .slide-image {
         width: 410px;
         
