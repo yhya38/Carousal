@@ -4,22 +4,22 @@
   box-sizing: border-box;
 }
 .slider {
-  width: 505px;
+  width: 320px;
   overflow: hidden;
   float: left;
 }
 
 figure {
-  width: 2020px;
+  width: 1280px;
   position: relative;
-  animation: animation 20s infinite;
+  animation: animation 30s infinite;
 }
 img {
-  width: 400px;
+  width: 280px;
 }
 .slide-image {
   float: left;
-  width: 505px;
+  width: 320px;
   text-align: center;
   padding: 10px;
   background-color: skyblue;
@@ -27,7 +27,7 @@ img {
 }
 .slide-image1 {
   float: left;
-  width: 505px;
+  width: 320px;
   text-align: center;
   padding: 10px;
   background-color: rgba(211, 211, 211, 0.8);
@@ -56,70 +56,204 @@ img {
   }
 
   25% {
-    left: -505px;
+    left: -320px;
   }
   50% {
-    left: -1010px;
+    left: -640px;
   }
   75% {
-    left: -1515px;
+    left: -960px;
   }
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width:360px) {
   img {
-    width: 200px;
-  }
-  .slide-image {
-    width: 380px;
-    /* overflow: hidden; */
-  }
-  .slide-image1 {
-    width: 380px;
-    /* overflow: hidden; */
-  }
-  figure {
-    width: 1520px;
+    width: 250px;
   }
   .slider {
-    width: 380px;
-    overflow: hidden;
+    width: 360px;
   }
-  @keyframes animation {
-    0% {
-      left: 0;
-    }
+  .slide-image {
+    width: 360px;
+  }
+  .slide-image1 {
+    width: 360px;
+  }
+  figure {
+    width: 1440px;
+  }
+  
+@keyframes animation {
+  0% {
+    left: 0;
+  }
 
-    25% {
-      left: -380px;
-    }
-    50% {
-      left: -760px;
-    }
-    75% {
-      left: -1140px;
-    }
+  25% {
+    left: -360px;
+  }
+  50% {
+    left: -720px;
+  }
+  75% {
+    left: -1080px;
   }
 }
-@media screen and (max-width:415px) {
+
+}
+
+
+@media screen and (min-width:375px) {
+  img {
+    width: 250px;
+  }
+  .slider {
+    width: 375px;
+  }
+  .slide-image {
+    width: 375px;
+  }
+  .slide-image1 {
+    width: 375px;
+  }
+  figure {
+    width: 1500px;
+  }
+  
+@keyframes animation {
+  0% {
+    left: 0;
+  }
+
+  25% {
+    left: -375px;
+  }
+  50% {
+    left: -750px;
+  }
+  75% {
+    left: -1125px;
+  }
+}
+}
+@media screen and (min-width:411px) {
+  img {
+    width: 300px;
+  }
+  .slider {
+    width: 411px;
+  }
+  .slide-image {
+    width: 411px;
+  }
+  .slide-image1 {
+    width: 411px;
+  }
+  figure {
+    width: 1644px;
+  }
+  
+@keyframes animation {
+  0% {
+    left: 0;
+  }
+
+  25% {
+    left: -411px;
+  }
+  50% {
+    left: -822px;
+  }
+  75% {
+    left: -1233px;
+  }
+}
+}
+@media screen and (min-width:414px) {
+  img {
+    width: 300px;
+  }
+  .slider {
+    width: 414px;
+  }
+  .slide-image {
+    width: 414px;
+  }
+  .slide-image1 {
+    width: 414px;
+  }
+  figure {
+    width: 1656px;
+  }
+  
+@keyframes animation {
+  0% {
+    left: 0;
+  }
+
+  25% {
+    left: -414px;
+  }
+  50% {
+    left: -828px;
+  }
+  75% {
+    left: -1242px;
+  }
+}
+}
+
+
+/* 
+@media screen and (max-width:411px) {
     img {
-        width: 350px;
+        width: 320px;
     }
     .slide-image {
-        width: 410px;
+        width: 376px;
         
     }
    
     .slide-image1 {
-        width: 410px;
+        width: 376px;
     }
     .slider {
-        width: 410px;
+        width: 376px;
     }
     figure {
         width: 1640px;
     }
       @keyframes animation {
+    0% {
+      left: 0;
+    }
+
+    25% {
+      left: -376px;
+    }
+    50% {
+      left: -752px;
+    }
+    75% {
+      left: -1128px;
+    }
+  }
+} */
+/* @media screen and (max-width:415px) {
+  img {
+    width: 360px;
+  }
+  .slide-image {
+    width: 410px;
+  }
+  .slide-image1 {
+    width: 410px;
+  }
+  .slider {
+    width: 410px;
+  }
+  figure {
+    width: 1240px;
+  }
+     @keyframes animation {
     0% {
       left: 0;
     }
@@ -134,5 +268,28 @@ img {
       left: -1230px;
     }
   }
+} */
+
+/* @media screen and (max-width:321px) {
+.container-slider {
+  width: 100vw;
+  background-color: black;
 }
+  img {
+    width: 250px;
+  }
+  .slider {
+    width: 250px;
+  }
+  .slide-image {
+    width: 250px;
+  }
+  .slide-image1 {
+    width: 250px;
+  }
+  figure {
+    width: 1000px;
+  }
+
+} */
 

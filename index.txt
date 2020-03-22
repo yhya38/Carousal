@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+  img {
+    width: 200px;
+  }
+  .slide-image {
+    width: 380px;
+    /* overflow: hidden; */
+  }
+  .slide-image1 {
+    width: 380px;
+    /* overflow: hidden; */
+  }
+  figure {
+    width: 1520px;
+  }
+  .slider {
+    width: 380px;
+    overflow: hidden;
+  }
+  @keyframes animation {
+    0% {
+      left: 0;
+    }
+
+    25% {
+      left: -380px;
+    }
+    50% {
+      left: -760px;
+    }
+    75% {
+      left: -1140px;
+    }
+  }
+}
