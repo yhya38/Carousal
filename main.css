@@ -200,6 +200,39 @@ img {
   }
 }
 }
+@media screen and (min-width:424px) {
+  img {
+    width: 300px;
+  }
+  .slider {
+    width: 424px;
+  }
+  .slide-image {
+    width: 424px;
+  }
+  .slide-image1 {
+    width: 424px;
+  }
+  figure {
+    width: 1696px;
+  }
+  
+@keyframes animation {
+  0% {
+    left: 0;
+  }
+
+  25% {
+    left: -424px;
+  }
+  50% {
+    left: -848px;
+  }
+  75% {
+    left: -1272px;
+  }
+}
+}
 
 
 /* 
