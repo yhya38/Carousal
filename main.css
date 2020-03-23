@@ -6,6 +6,7 @@
 
 .slider {
   width: 320px;
+  height: 50%;
   overflow: hidden;
   /* text-align: center; */
   float: left;
@@ -14,25 +15,26 @@
 figure {
   width: 1280px;
   position: relative;
-  animation: animation 30s infinite;
+  animation: animation 40s infinite;
+  animation-delay: 4s;
+  
+
 }
 .container-slider img {
   width: 280px;
   height: 150px;
 }
 .slide-image {
-  height: 65vh;
   float: left;
   width: 320px;
+  height: 50%;
   text-align: center;
-  /* padding: 10 5px; */
   background-color: black;
   color: white;
-  /* border: 1px solid black; */
+
 }
 .slide-image1 {
-  width: 58vh;
-  height: 65vh;
+  height: 50%vh;
 
   float: left;
   width: 320px;
@@ -40,6 +42,7 @@ figure {
   /* padding: 10px; */
  background-color: black;
   color: white;
+
 }
 .container-slider h2 {
     margin-bottom: 10px;
@@ -60,7 +63,7 @@ figure {
     color: black;
     font-weight: bold;
     padding: 5px;
-    margin-top: 5px;
+    margin: 20px;
     display: inline-block;
     text-decoration: none;
     border-radius: 5px;
@@ -88,7 +91,7 @@ figure {
   }
   .slider {
     width: 360px;
-    height: 58vh;
+    /* height: 50%; */
   }
   .slide-image {
     width: 360px;
@@ -160,7 +163,7 @@ figure {
   }
   .slider {
     width: 411px;
-    height: 55vh;
+    /* height: 50%; */
   }
   .slide-image {
     width: 411px;
@@ -195,7 +198,7 @@ figure {
   .slider {
     width: 414px;
     object-fit: contain;
-    height: 65vh;
+    /* height: 65vh; */
   }
   .slide-image {
     width: 414px;
@@ -229,7 +232,7 @@ figure {
   }
   .slider {
     width: 424px;
-    height: 62vh;
+    /* height: 62vh; */
   }
   .slide-image {
     width: 424px;
@@ -270,7 +273,7 @@ figure {
   }
   .slider {
     width: 384px;
-    height: 55vh;
+    height: 55%;
   }
   .slide-image {
     width: 384px;
@@ -314,17 +317,17 @@ figure {
   }
   .slider {
     width: 470px;
-    height: 70vh;
+    height: 70%;
   }
   .slide-image {
     width: 470px;
-    height: 70vh;
+    height: 70%;
 
     
   }
   .slide-image1 {
     width: 470px;
-    height: 70vh;
+    height: 70%;
 
   }
   figure {
@@ -360,17 +363,17 @@ figure {
   }
   .slider {
     width: 560px;
-    height: 72vh;
+    /* height: 72vh; */
 
   }
   .slide-image {
     width: 560px;
-    height: 70vh;
+    /* height: 70vh; */
 
   }
   .slide-image1 {
     width: 560px;
-    height: 70vh;
+    /* height: 70vh; */
 
   }
   figure {
@@ -408,16 +411,16 @@ figure {
   }
   .slider {
     width: 620px;
-    height: 75vh;
+    /* height: 80%; */
   }
   .slide-image {
     width: 620px;
-    height: 75vh;
+    /* height: 80%; */
 
   }
   .slide-image1 {
     width: 620px;
-    height: 75vh;
+    /* height: 80%; */
 
   }
   figure {
