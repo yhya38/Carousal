@@ -32,7 +32,7 @@ const prevSlide = () => {
   if (current.previousElementSibling) {
     current.previousElementSibling.classList.add("current");
   } else {
-    slides[slides.length-1].classList.add("current");
+    slides[slides.length - 1].classList.add("current");
   }
   setTimeout(() => current.classList.remove("current"));
 };
